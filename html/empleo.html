@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicleteria Hawkez</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="pt-0 imgFondo">
+
+    <header class="navbar navbar-expand-lg pt-0 pb-0 borderNav">
+
+        <nav class="container-fluid navegador">
+
+            <!-- LOGO EN NAVEGADOR -->
+
+            <div class="loscontiene">
+
+                <a class="navbar-brand m-0 p-0" href="../index.html"><img class="logo" src="../img/logo.png"
+                        alt="logo bicicleteria hawkez"></a>
+
+                <a class="navbar-brand linkLogo" href="../index.html">Bicicleteria Hawkez</a>
+
+            </div>
+
+            <!-- FIN LOGO EN NAVEGADOR -->
+
+
+            <!-- BOTON HAMBURGUESA -->
+            <div>
+                <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <!-- FIN BOTON HAMBURGUESA -->
+
+
+            <!-- LISTADO DE NAVEGACION -->
+            <nav class="collapse navbar-collapse navegadorDos" id="navbarNav">
+
+                <ul class="navbar-nav listado">
+
+                    <li class="nav-item itemsNav">
+                        <a class="nav-link letra" href="../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item itemsNav">
+                        <a class="nav-link letra" href="bicicletas.html">Bicicletas</a>
+                    </li>
+
+                    <li class="nav-item itemsNav">
+                        <a class="nav-link letra" href="accesoriosyrepuestos.html">Accesorios y repuestos</a>
+                    </li>
+
+                    <li class="nav-item itemsNav salidas">
+                        <a class="nav-link letra" href="salidas.html">Salidas</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <!-- FIN LISTADO DE NAVEGACION -->
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="mt-3 container-fluid">
+            <p class="h1 text-center">
+            ¡Bienvenido a nuestra comunidad!            
+            </p>
+
+            <p class="mx-5 h5 text-center">¿Te interesaria trabajar con nosotros? <br>
+            Te contamos que nos encontramos en constante creciemiento, por lo que estamos buscando personas como vos, apasionadas por las bicicletas, para sumarse a nuestro equipo. A continuación podes dejarnos tus datos para contactarnos con vos y conocerte mejor.
+        </div>
+
+
+        <div class="my-5">
+            <form>
+                <fieldset class="container recuadro fieldset">
+                    <legend id="legend">Envianos tus datos</legend>
+
+                    <label for="name">Nombre y apellido</label>
+                    <input type="text" id="name" placeholder="Nombre y apellido">
+
+                    <label for="number">Celular</label>
+                    <input type="number" id="number" placeholder="Celular">
+
+                    <label for="email">Mail</label>
+                    <input type="email" id="email" placeholder="Email">
+
+                    <label for="comentario">Contanos un poco de vos:</label>
+                    <textarea name="comentario" id="comentario" cols="15" rows="5"></textarea>
+
+                    <button class="boton" submit>Enviar</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+
+
+    <footer class="py-3 mt-5">
+        <ul class="nav justify-content-center pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 textFooter">inicio</a></li>
+            <li class="nav-item"><a
+                    href="https://www.google.com/maps/place/Butteler,+C1424+CABA/@-34.6396502,-58.4267797,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccba5f502ad3f:0x506320400eeca441!8m2!3d-34.6396546!4d-58.4242048!16s%2Fg%2F12q4q055q?hl=es&entry=ttu"
+                    class="nav-link px-2 textFooter" target="_blank">Ubicanos</a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 textFooter">FAQs</a></li>
+            <li class="nav-item"><a href="empleo.html" class="nav-link px-2 textFooter">Trabaja con
+                    nosotros</a></li>
+        </ul>
+        <p class="text-center textFooter">&copy; 2023 Company, Inc</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

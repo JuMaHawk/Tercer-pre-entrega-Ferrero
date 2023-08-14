@@ -1,0 +1,218 @@
+.borderNav {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 0 2px 5px;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loscontiene {
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+}
+
+.linkLogo {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.itemsNav {
+  width: 30%;
+  height: 2rem;
+  border-left: 1px solid black;
+  background-image: linear-gradient(to top, rgb(82, 81, 81), rgb(128, 128, 128));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.letra {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.salidas {
+  border-right: 1px solid black;
+}
+
+.itemsNav:hover {
+  transform: scale(1.1, 1.1);
+  background-image: linear-gradient(to top, rgb(43, 40, 40), rgb(128, 128, 128));
+  border: none;
+}
+
+.listado {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navegadorDos {
+  width: 100%;
+  justify-content: center;
+}
+
+header {
+  background-image: url(../img/bannerheader2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  border-top: 2px solid rgb(230, 185, 119);
+  border-bottom: 2px solid black;
+  background-image: linear-gradient(to top, rgb(128, 125, 125), rgba(128, 128, 128, 0.2));
+}
+
+footer ul {
+  border-bottom: 2px solid rgb(197, 187, 187);
+}
+
+.textFooter {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.recuadro {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.recuadro label {
+  text-transform: uppercase;
+  margin: 10px 0px 3px 0px;
+}
+
+.recuadro input {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 75%;
+}
+
+#legend {
+  margin-left: 10px;
+}
+
+.colorText {
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
+
+#legend {
+  color: white;
+  text-shadow: 1.5px 1.5px 3px black;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.boton {
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+
+fieldset label {
+  font-weight: bold;
+}
+
+.fieldset {
+  border: 5px solid black;
+  box-shadow: 3px 3px 2px;
+}
+
+.cardSalidas {
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+
+.imgCardSalidas {
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 2px black;
+}
+
+.imgFondo {
+  background-image: url(../img/fondoForm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.margenesCarousel {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondoCarousel {
+  box-shadow: 2px 3px 3px;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  padding-bottom: 1rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+body {
+  background-color: rgb(230, 186, 137);
+}
+
+.imgCarousel {
+  border-radius: 20px;
+}
+
+.bienvenidos {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: rgb(235, 234, 234);
+  text-align: center;
+  color: black;
+  border-bottom: 0.3rem solid black;
+  border-top: 0.3rem solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
