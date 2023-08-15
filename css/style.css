@@ -1,28 +1,31 @@
+header {
+  background-image: url(../img/bannerheader2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .borderNav {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   box-shadow: 0 2px 5px;
 }
-
-.navegador {
+.borderNav .navegador {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-.loscontiene {
+.borderNav .navegador .loscontiene {
   width: 30%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
-
-.logo {
+.borderNav .navegador .loscontiene .logo {
   height: 8rem;
   width: 8rem;
 }
-
-.linkLogo {
+.borderNav .navegador .loscontiene .linkLogo {
   color: black;
   font-family: "Indie Flower", cursive;
   font-size: 1.5em;
@@ -30,8 +33,16 @@
   padding: 0;
   margin: 0;
 }
-
-.itemsNav {
+.borderNav .navegador .navegadorDos {
+  width: 100%;
+  justify-content: center;
+}
+.borderNav .navegador .navegadorDos .listado {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.borderNav .navegador .navegadorDos .itemsNav {
   width: 30%;
   height: 2rem;
   border-left: 1px solid black;
@@ -41,41 +52,21 @@
   align-items: center;
   transition: 0.3s;
 }
-
-.letra {
+.borderNav .navegador .navegadorDos .itemsNav .letra {
   color: white;
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0;
 }
-
-.salidas {
-  border-right: 1px solid black;
-}
-
-.itemsNav:hover {
+.borderNav .navegador .navegadorDos .itemsNav:hover {
   transform: scale(1.1, 1.1);
   background-image: linear-gradient(to top, rgb(43, 40, 40), rgb(128, 128, 128));
   border: none;
 }
 
-.listado {
-  width: 95%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.navegadorDos {
-  width: 100%;
-  justify-content: center;
-}
-
-header {
-  background-image: url(../img/bannerheader2.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.salidas {
+  border-right: 1px solid black;
 }
 
 footer {
@@ -83,15 +74,22 @@ footer {
   border-bottom: 2px solid black;
   background-image: linear-gradient(to top, rgb(128, 125, 125), rgba(128, 128, 128, 0.2));
 }
-
 footer ul {
   border-bottom: 2px solid rgb(197, 187, 187);
 }
 
 .textFooter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   text-decoration: none;
-  color: black;
-  text-transform: uppercase;
+  color: rgb(100, 94, 94);
+  text-shadow: 1px 1px 1px black;
+}
+
+.textFooter:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.1rem;
 }
 
 .recuadro {
@@ -166,19 +164,6 @@ fieldset label {
   box-shadow: 3px 3px 2px black;
 }
 
-.imgCarousel {
-  border-radius: 20px;
-}
-
-.margenesCarousel {
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .fondoCarousel {
   box-shadow: 2px 3px 3px;
   display: flex;
@@ -188,6 +173,17 @@ fieldset label {
   margin: 2rem auto;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+.fondoCarousel .margenesCarousel {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondoCarousel .imgCarousel {
+  border-radius: 20px;
 }
 
 .bienvenidos {
@@ -201,7 +197,7 @@ fieldset label {
   border-top: 0.3rem solid black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 988px) {
   body {
     font-size: 12px;
   }
