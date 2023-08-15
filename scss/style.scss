@@ -1,24 +1,9 @@
-@import "variables", "header","footer", "formulario", "cards", "imgfondo", "carousel", "mediasq";
+@import "variables", "header","footer", "formulario", "cards", "home", "mediasq";
 
 body {
     background-color: rgb(230, 186, 137);
 }
 
 
-.imgCarousel {
-    border-radius: 20px;
-    
-}
 
 
-
-.bienvenidos{
-    width: 100%;
-    margin: 2rem 0;
-    padding: 2rem;
-    background-color:rgb(235, 234, 234);
-    text-align: center;
-    color: black;
-    border-bottom: 0.3rem solid black;
-    border-top: 0.3rem solid black;
-}

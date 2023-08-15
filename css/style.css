@@ -147,24 +147,27 @@ fieldset label {
   box-shadow: 3px 3px 2px;
 }
 
-.cardSalidas {
-  margin: 0 0.5rem;
-  border-radius: 10px;
-  border: 3px solid gray;
-}
-
-.imgCardSalidas {
-  border-radius: 10px;
-  margin-top: 10px;
-  box-shadow: 3px 3px 2px black;
-}
-
 .imgFondo {
   background-image: url(../img/fondoForm.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cardSalidas {
+  margin: 0 0.5rem;
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+.cardSalidas .imgCardSalidas {
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 2px black;
+}
+
+.imgCarousel {
+  border-radius: 20px;
 }
 
 .margenesCarousel {
@@ -187,6 +190,17 @@ fieldset label {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.bienvenidos {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: rgb(235, 234, 234);
+  text-align: center;
+  color: black;
+  border-bottom: 0.3rem solid black;
+  border-top: 0.3rem solid black;
+}
+
 @media (max-width: 500px) {
   body {
     font-size: 12px;
@@ -198,21 +212,6 @@ fieldset label {
 }
 body {
   background-color: rgb(230, 186, 137);
-}
-
-.imgCarousel {
-  border-radius: 20px;
-}
-
-.bienvenidos {
-  width: 100%;
-  margin: 2rem 0;
-  padding: 2rem;
-  background-color: rgb(235, 234, 234);
-  text-align: center;
-  color: black;
-  border-bottom: 0.3rem solid black;
-  border-top: 0.3rem solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

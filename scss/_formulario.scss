@@ -50,3 +50,12 @@ fieldset label {
     border: 5px solid black;
     box-shadow: 3px 3px 2px;
 }
+
+
+.imgFondo {
+    background-image: url(../img/fondoForm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+}
