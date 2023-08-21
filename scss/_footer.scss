@@ -1,19 +1,28 @@
-footer{
+footer {
     border-top: 2px solid rgb(230, 185, 119);
     border-bottom: 2px solid black;
     background-image: linear-gradient(to top, rgb(128, 125, 125), rgba(128, 128, 128, 0.2));
 
-    ul{
+    ul {
         border-bottom: 2px solid rgb(197, 187, 187);
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 1px rgb(197, 196, 196);
     }
 }
 
-.textFooter{
+.textFooter {
     @include linksa;
-    
+
 }
 
-.textFooter:hover{
+.textFooter:hover {
     color: $colorLinks;
     text-shadow: 1px 1px 2px black;
     font-size: 1.1rem;

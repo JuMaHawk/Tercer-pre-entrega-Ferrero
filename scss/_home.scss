@@ -25,12 +25,21 @@
 }
 
 .bienvenidos{
-    width: 100%;
+    background-image: url(../img/fondoiBicicletas2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 2rem 0;
-    padding: 2rem;
+    padding: 3rem 2rem;
     background-color:rgb(235, 234, 234);
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     border-bottom: 0.3rem solid black;
     border-top: 0.3rem solid black;
+    text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
+}   h1{
+    font-size: 3rem;
+    
+}   p{
+    font-size: 1.5rem;
 }
