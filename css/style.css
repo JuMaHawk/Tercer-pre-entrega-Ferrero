@@ -195,7 +195,6 @@ fieldset label {
 }
 
 .bienvenidos {
-  background-image: url(../img/fondoiBicicletas2.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,14 +206,15 @@ fieldset label {
   border-bottom: 0.3rem solid black;
   border-top: 0.3rem solid black;
   text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 3px 2px black;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 988px) {
@@ -228,6 +228,28 @@ p {
 }
 body {
   background-color: rgb(230, 186, 137);
+}
+
+.promosBici {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselPromos {
+  background-color: blue;
+}
+
+.textPromos {
+  width: 50%;
+  background-color: hotpink;
+}
+
+.imgPromos {
+  background-color: green;
+  width: 50%;
+  height: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
