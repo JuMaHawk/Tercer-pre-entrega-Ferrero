@@ -4,22 +4,15 @@
     flex-direction: column;
     justify-content: left;
     background-color: rgba(128, 128, 128, 0.8);
-}
-
-.recuadro label {
+}   label {
     text-transform: uppercase;
     margin: 10px 0px 3px 0px;
-}
-
-.recuadro input {
+}   input {
     border: 2px solid black;
     border-radius: 5px;
     margin-right: 75%;
 }
 
-#legend {
-    margin-left: 10px;
-}
 
 .colorText{
     color: white;
@@ -30,6 +23,7 @@ textarea{
 }
 
 #legend {
+    margin-left: 10px;
     color: white;
     text-shadow: 1.5px 1.5px 3px black;
     text-align: center;
@@ -50,7 +44,6 @@ fieldset label {
     border: 5px solid black;
     box-shadow: 3px 3px 2px;
 }
-
 
 .imgFondo {
     background-image: url(../img/fondoForm.png);
